@@ -1,20 +1,9 @@
-package com.univocity.cardano.wallet.common;
+package com.stibits.cardano.wallet.common;
 
-import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.*;
-import okhttp3.*;
-import org.apache.commons.codec.binary.*;
-import org.apache.commons.io.*;
 import org.slf4j.*;
 
 import java.io.*;
-import java.net.*;
-import java.nio.charset.*;
-import java.time.*;
-import java.time.format.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
 
 public class Utils {
 

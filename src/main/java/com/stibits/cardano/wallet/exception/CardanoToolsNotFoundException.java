@@ -1,4 +1,4 @@
-package com.univocity.cardano.wallet.exception;
+package com.stibits.cardano.wallet.exception;
 
 
 public class CardanoToolsNotFoundException extends IllegalStateException{

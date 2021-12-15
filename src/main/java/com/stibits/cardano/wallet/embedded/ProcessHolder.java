@@ -1,4 +1,4 @@
-package com.univocity.cardano.wallet.embedded;
+package com.stibits.cardano.wallet.embedded;
 
 import java.io.*;
 

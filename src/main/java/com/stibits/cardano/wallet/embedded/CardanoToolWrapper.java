@@ -1,5 +1,6 @@
-package com.univocity.cardano.wallet.embedded;
+package com.stibits.cardano.wallet.embedded;
 
+import com.stibits.cardano.wallet.exception.CardanoToolsNotFoundException;
 import com.univocity.cardano.wallet.exception.*;
 import org.apache.commons.lang3.*;
 import org.slf4j.*;

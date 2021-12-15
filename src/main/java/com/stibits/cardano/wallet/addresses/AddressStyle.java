@@ -1,4 +1,4 @@
-package com.univocity.cardano.wallet.addresses;
+package com.stibits.cardano.wallet.addresses;
 
 public enum AddressStyle {
 	Byron,

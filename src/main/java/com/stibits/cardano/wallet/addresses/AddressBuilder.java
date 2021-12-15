@@ -1,11 +1,11 @@
-package com.univocity.cardano.wallet.addresses;
+package com.stibits.cardano.wallet.addresses;
 
-import com.univocity.cardano.wallet.embedded.CardanoToolWrapper;
+import com.stibits.cardano.wallet.embedded.CardanoToolWrapper;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.univocity.cardano.wallet.addresses.AddressStyle.Shelley;
+import static com.stibits.cardano.wallet.addresses.AddressStyle.Shelley;
 
 
 public class AddressBuilder extends CardanoToolWrapper {

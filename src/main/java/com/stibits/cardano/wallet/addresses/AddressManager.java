@@ -1,16 +1,14 @@
-package com.univocity.cardano.wallet.addresses;
+package com.stibits.cardano.wallet.addresses;
 
-import com.univocity.cardano.wallet.common.Utils;
-import com.univocity.cardano.wallet.embedded.CardanoToolWrapper;
+import com.stibits.cardano.wallet.common.Utils;
+import com.stibits.cardano.wallet.embedded.CardanoToolWrapper;
 import org.apache.commons.lang3.*;
 import org.slf4j.*;
-
-import static com.univocity.cardano.wallet.addresses.AddressStyle.*;
 
 public class AddressManager extends CardanoToolWrapper {
 
 	private static final Logger log = LoggerFactory.getLogger(AddressManager.class);
-	private AddressStyle style = Shelley;
+	private AddressStyle style = AddressStyle.Shelley;
 
 	public AddressManager(String cardanoToolsDirPath) {
 		super(cardanoToolsDirPath, "cardano-address");
@@ -73,7 +71,7 @@ public class AddressManager extends CardanoToolWrapper {
 			throw new IllegalArgumentException("Seed phrase cannot be null/blank");
 		}
 		seed = seed.trim();
-		if (style == Shelley && seed.split(" ").length != 24) {
+		if (style == AddressStyle.Shelley && seed.split(" ").length != 24) {
 			throw new IllegalArgumentException("Seed phrase must have 24 words");
 		}
 		return generatePublicRootKeyFromPrivateKey(generateRootPrivateKey(seed), accountIndex);

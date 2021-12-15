@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.univocity</groupId>
+	<groupId>com.stibits</groupId>
 	<artifactId>envlp-cardano-wallet</artifactId>
 	<version>2020.12.21-SNAPSHOT</version>
 	<name>envlp-cardano-wallet</name>
-	<description>A cardano-wallet client, used by the ENVLP wallet</description>
+	<description>A cardano-wallet client, used by the Stibits wallet</description>
 
 	<organization>
 		<name>Univocity Software Pty Ltd</name>
-		<url>www.univocity.com</url>
+		<url>www.stibits.com</url>
 	</organization>
 
-	<url>http://github.com/univocity/envlp-cardano-wallet</url>
+	<url>http://github.com/stibits-inc/envlp-cardano-wallet</url>
 
 	<licenses>
 		<license>
@@ -33,22 +33,9 @@
 
 		<developer>
 			<id>dev</id>
-			<name>univocity development team</name>
-			<email>dev@univocity.com</email>
+			<name>Stibits development team</name>
 		</developer>
 	</developers>
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
 
 	<build>
 		<plugins>
