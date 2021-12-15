@@ -1,3 +1,0 @@
-		if ({NAME}.compareTo(new BigInteger("{MIN}")) < 0){
-			throw new IllegalArgumentException("'" + {NAME} + "': value of {NAME} cannot be less than {MIN}");
-		}

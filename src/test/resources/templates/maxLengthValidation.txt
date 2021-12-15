@@ -1,3 +1,0 @@
-		if ({NAME}.codePointCount(0, {NAME}.length()) > {MAX_LENGTH}) {
-			throw new IllegalArgumentException("Length of {NAME} cannot exceed {MAX_LENGTH} characters, got '" + {NAME}.codePointCount(0, {NAME}.length()) + "'");
-		}

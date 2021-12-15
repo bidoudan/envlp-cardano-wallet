@@ -1,3 +1,0 @@
-		if ({NAME} == null) {
-			throw new IllegalArgumentException("Value of {NAME} cannot be null");
-		}
